@@ -1,0 +1,23 @@
+<h1>Login</h1>
+
+<%= form_tag '/login' do %>
+  <div class="form-group">
+
+  <label for="useremail">Email address</label>
+   <%= text_field_tag :email, nil, class:'form-control', id:'useremail', placeholder:'Enter your email' %>
+   <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+   </div>
+   <div class="form-group">
+   <label for="userpass">Password</label>
+  <%= password_field_tag :password, nil, class:'form-control', id:'userpass',placeholder:'Enter your password' %>
+  </div>
+  <%= submit_tag "Submit", class:'btn btn primary' %>
+ 
+
+<% end %>
+
+<h4>Don't have an account? Click below to register</h4>
+
+<%= link_to 'Register', :signup , class: 'btn btn-info' %>
+
+
