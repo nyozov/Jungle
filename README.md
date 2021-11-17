@@ -5,7 +5,8 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 This was a project where I added features and fixed bugs on an already built application. This was done to simulate real life experiences that involve making changes to an existing codebase that is build on an unfamiliar langauge. The features that were added have also been tested with capybara.
 
 # Screenshots
-
+![Home Screen](https://github.com/nyozov/Jungle/blob/master/docs/home_screen.png?raw=true)
+![Product Description](https://github.com/nyozov/Jungle/blob/master/docs/product_desc.png?raw=true)
 
 ## Additional Steps for Apple M1 Machines
 
