@@ -2,6 +2,11 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+This was a project where I added features and fixed bugs on an already built application. This was done to simulate real life experiences that involve making changes to an existing codebase that is build on an unfamiliar langauge. The features that were added have also been tested with capybara.
+
+# Screenshots
+
+
 ## Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
